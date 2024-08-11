@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --fundo:#D9D9D9;
+    --titulo-menu:#ECEFE4;
+    --texto-geral:#000000;
+    --elementos-organismo:#9FBB99;
+    --elementos-biosfera:#CBC8B3;
+    --elementos-ecologia:#94B36D;
+    --elementos-ecossistema:#B3BECB;
+}
+body{
+    background-color: var(--fundo);
+}
+
 .menu-organismo {
     position: relative;
     width: 100%;
@@ -26,6 +39,11 @@
 
 .menu-organismo h1 {
     position: absolute;
-    top: 80px; 
-    left: 200px;
+    top: 55px; 
+    left: 185px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: var(--titulo-menu);
 }
+
+
