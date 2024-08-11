@@ -46,4 +46,52 @@ body{
     color: var(--titulo-menu);
 }
 
+.img-duvida {
+    float: right;
+    margin-left: 100px;
+    width: 60px;
+    height: auto;
+}
+
+.oque-e p{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 600px;
+    height: 255px;
+    background-color: var(--elementos-organismo); 
+    border-radius: 20px;
+    color: var(--texto-geral);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.img-orgnismo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 50px; 
+    width: 400px;
+    height: auto;
+    background-image: none;
+    border-radius: 20px;
+}
+
+
+.oque-e {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
