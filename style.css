@@ -47,9 +47,10 @@ body{
 }
 
 .img-duvida {
-    float: right;
-    margin-left: 50px; 
-    width: 90px;
+    display: flex;
+    justify-content: flex-end;
+    width: 80px;
+    margin-left: auto;
 }
 
 .oque-e p{ 
@@ -66,12 +67,12 @@ body{
     font-size: 20px;
 }
 
-.h3{
+.centro h3{
     display: flex;
     justify-content: center;
     align-items: center; 
     width: 400px;
-    height: 200px;
+    height: 50%;
     text-align: center;
 }
 
