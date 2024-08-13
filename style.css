@@ -13,6 +13,7 @@
     --elementos-ecologia:#94B36D;
     --elementos-ecossistema:#B3BECB;
 }
+
 body{
     background-color: var(--fundo);
 }
@@ -47,32 +48,34 @@ body{
 }
 
 .img-duvida {
-    display: flex;
-    justify-content: flex-end;
-    width: 80px;
-    margin-left: auto;
+    width: 5rem;
+    left: 107rem;
+    position: absolute;
+    bottom: 0;
+    top: 16rem;
+
+    
 }
 
 .oque-e p{ 
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 600px;
+    width: 950px;
     height: 255px;
     background-color: var(--elementos-organismo); 
     border-radius: 20px;
     color: var(--texto-geral);
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Jost", sans-serif;;
     font-size: 20px;
+    text-align: left;
 }
-
 .centro h3{
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 400px;
-    height: 50%;
+    width: 790px;
+    height: 40%;
     text-align: center;
 }
 
@@ -80,7 +83,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center; 
-    top: 50px; 
+    top: 1rem; 
     width: 400px;
     height: auto;
     background-image: none;
@@ -88,10 +91,18 @@ body{
 }
 
 
-.oque-e{
+.oque-e  {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+.titulo{
+    font-family: "Laila" , serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 
