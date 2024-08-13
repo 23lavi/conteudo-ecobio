@@ -32,18 +32,18 @@ body{
 
 .icone-menu {
     position: absolute;
-    top: 50px; 
-    left: 60px; 
-    width: 110px; 
+    top: 3rem; 
+    left: 4rem; 
+    width: 8rem; 
     height: auto;
 }
 
 .menu-organismo h1 {
     position: absolute;
-    top: 55px; 
-    left: 185px;
+    top: 3.99rem; 
+    left: 12rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 60px;
+    font-size: 4rem;
     color: var(--titulo-menu);
 }
 
@@ -52,57 +52,91 @@ body{
     left: 107rem;
     position: absolute;
     bottom: 0;
-    top: 16rem;
-
-    
+    top: 16rem;   
 }
 
-.oque-e p{ 
+.pergunta {
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 950px;
-    height: 255px;
-    background-color: var(--elementos-organismo); 
-    border-radius: 20px;
-    color: var(--texto-geral);
+    justify-content: center; 
+    width: 70rem;
+    height: 0rem;
+    padding: 7rem;
     font-family: "Jost", sans-serif;;
-    font-size: 20px;
+    font-size: 1.9rem;
     text-align: left;
 }
-.centro h3{
+
+.resposta1{
     display: flex;
     justify-content: center;
-    align-items: center; 
-    width: 790px;
-    height: 40%;
-    text-align: center;
+    align-items: center;
+}
+
+.resposta1 p{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69rem;
+    height: 22rem;
+    padding: 4.5rem;
+    background-color: var(--elementos-organismo); 
+    border-radius: 3rem;
+    color: var(--texto-geral);
+    font-family: "Jost", sans-serif;;
+    font-size: 1.9rem;
+    text-align: left;
 }
 
 .img-orgnismo{
     display: flex;
     justify-content: center;
     align-items: center; 
-    top: 1rem; 
-    width: 400px;
+    top: 2rem; 
+    width: 26.5rem;
     height: auto;
     background-image: none;
-    border-radius: 50px;
+    border-radius: 2.5rem;
 }
 
+.cara {
+    display: flex;
+    justify-content: center; 
+    width: 150rem;
+    height: 0rem;
+    padding: 7rem;
+    font-family: "Jost", sans-serif;;
+    font-size: 1.9rem;
+    text-align: left;
+}
 
-.oque-e  {
+.resposta2{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.titulo{
-    font-family: "Laila" , serif;
-    font-weight: 700;
-    font-style: normal;
+.resposta2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69rem;
+    height: 22rem;
+    padding: 4.5rem;
+    background-color: var(--elementos-organismo); 
+    border-radius: 3rem;
+    color: var(--texto-geral);
+    font-family: "Jost", sans-serif;;
+    font-size: 2.3rem;
+    text-align: left;
 }
 
-
-
+.img-cara {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 2rem; 
+    width: 35rem;
+    height: auto;
+    background-image: none;
+    border-radius: 2.6rem;
+}
