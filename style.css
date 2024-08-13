@@ -140,3 +140,57 @@ body{
     background-image: none;
     border-radius: 2.6rem;
 }
+
+.material{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140rem;
+    height: 0rem;
+    padding: 7rem;
+    font-family: "Jost", sans-serif;;
+    font-size: 2.3rem;
+    text-align: left;
+}
+
+.estudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 3rem; 
+    width: 35rem;
+    height: auto;
+}
+
+.mp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103rem;
+    height: 0rem;
+    padding: 7rem;
+    font-family: "Jost", sans-serif;;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103rem;
+    height: 0rem;
+    padding: 7rem;
+    font-family: "Jost", sans-serif;;
+    font-size: 3rem;
+    text-align: left;
+}
+
+
+
