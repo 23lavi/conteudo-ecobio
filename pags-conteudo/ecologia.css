@@ -178,7 +178,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     height: 0rem;
     padding: 3rem;
     
-    color: var(--texto-biosfera);
+    color: var(--texto-ecologia);
     font-family: "Jost", sans-serif;;
     font-size: 1.5rem;
 }
@@ -196,4 +196,140 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     font-family: "Jost", sans-serif;;
     font-size: 1.9rem;
     text-align: left;
+}
+
+
+.parte3{
+    padding: 10rem; 
+}
+
+.conservacao {
+    display: flex;
+    justify-content: center; 
+    width: 125rem;
+    height: 0rem;
+    padding: 3rem;
+    
+    color: var(--texto-ecologia);
+    font-family: "Jost", sans-serif;;
+    font-size: 1.5rem;
+}
+
+.resposta3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposta3 p{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1175px;
+    height: 424px;
+    padding: 4rem;
+    background-color: var(--elementos-ecologia); 
+    border-radius: 3rem;
+    color: var(--texto-geral);
+    font-family: "Jost", sans-serif;;
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+.img-cons{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 2rem; 
+    width: 26.5rem;
+    height: auto;
+    margin-right: auto;
+    background-image: none;
+    border-radius: 20rem;
+}
+
+.material{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90.5rem;
+    height: 0rem;
+    padding: 7rem;
+    color: var(--texto-ecologia);
+    font-family: "Jost", sans-serif;;
+    font-size: 2.3rem;
+    text-align: left;
+}
+
+.estudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 3rem; 
+    width: 35rem;
+    height: auto;
+    padding: auto;
+    margin-right: 15rem;
+    border-radius: 3rem;
+}
+
+.video3{
+    border-radius: 3rem;
+}
+
+.mp-prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90.5rem;
+    height: 0rem;
+    padding: 7rem;
+    color: var(--texto-ecologia);
+    font-family: "Jost", sans-serif;;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.botao {
+    padding: 5.5rem;
+}
+
+.botao-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    height: 10rem;
+    padding: 3rem;
+    color: var(--texto-ecologia);
+    font-family: "Jost", sans-serif;
+    font-size: 2.3rem;
+}
+
+.botao-jogar{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 20rem;
+    padding: 2.5rem;
+
+    background-color: var(--elementos-ecologia); 
+    border-radius: 1rem;
+    color: var(--texto-geral);
+    font-family: "Jost", sans-serif;;
+    font-size: 2.5rem;
+    text-align: center;
 }
