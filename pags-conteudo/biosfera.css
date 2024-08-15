@@ -21,6 +21,12 @@ body{
     height: 100px;
 }
 
+body{
+    background-color: var(--fundo);
+    width: 1920px;
+    height: 100px;
+}
+
 input[type="checkbox"] {
     display: none;
 }
@@ -87,7 +93,6 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(2) {
 input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
-
 
 .menu-biosfera {
     position: fixed;

@@ -11,7 +11,6 @@
     --texto-biosfera:#3F2913;
     --texto-ecologia:#3B0709;
     --texto-ecossistema:#00183C;
-    --texto-organismo:#264824;
     --elementos-organismo:#9FBB99;
     --elementos-biosfera:#CBC8B3;
     --elementos-ecologia:#94B36D;
@@ -23,6 +22,7 @@ body{
     width: 1920px;
     height: 100px;
 }
+
 
 input[type="checkbox"] {
     display: none;
@@ -92,13 +92,20 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 }
 
 
-.menu-organismo {
+
+.menu-ecossistema {
     position: fixed;
     width: 100%;
     height: 250px;
 }
 
-.organismo {
+.ecossistema {
+    width: 125rem;
+    height: 201px;
+    object-fit: cover;
+}
+
+.img-ecossistema {
     width: 160rem;
     height: 201px;
     object-fit: cover;
@@ -112,7 +119,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     height: auto;
 }
 
-.menu-organismo h1 {
+.menu-ecossistema h1 {
     position: absolute;
     top: 4rem; 
     left: 12rem;
@@ -129,7 +136,6 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     top: 16rem;   
 }
 
-
 .parte1{
     padding: 15rem; 
 }
@@ -141,7 +147,6 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     height: 0rem;
     padding: 3rem;
 
-    color: var(--texto-organismo);
     font-family: "Jost", sans-serif;;
     font-size: 1.5rem;
 }
@@ -159,7 +164,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     width: 89rem;
     height: 22rem;
     padding: 4rem;
-    background-color: var(--elementos-organismo); 
+    background-color: var(--elementos-ecossistema); 
     border-radius: 3rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
@@ -167,7 +172,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     text-align: left;
 }
 
-.img-orgnismo{
+.img-ecossistema{
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -178,66 +183,49 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     border-radius: 2.5rem;
 }
 
+.parte2{
+    padding: 10rem; 
+}
 
-
-.cara {
+.comp{
     display: flex;
     justify-content: center; 
-    width: 38.5rem;
+    width: 129rem;
     height: 0rem;
     padding: 3rem;
-
-    color: var(--texto-organismo);
+    
+    color: var(--texto-ecossistema);
     font-family: "Jost", sans-serif;;
-    font-size: 1.9rem;
-    text-align: left;
+    font-size: 1.5rem;
 }
 
-.resposta2{
+.resposta2 { 
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.resposta2 p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 69rem;
-    height: 22rem;
-    padding: 4.5rem;
-
-    background-color: var(--elementos-organismo); 
+    width: 89rem;
+    height: 60rem;
+    padding: 4rem;
+    background-color: var(--elementos-ecossistema); 
     border-radius: 3rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     text-align: left;
-}
-
-.img-cara {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    top: 2rem; 
-    width: 35rem;
-    height: auto;
-    background-image: none;
-    border-radius: 2.6rem;
 }
 
 .parte3{
     padding: 10rem; 
 }
 
-.celular {
+.ex {
     display: flex;
     justify-content: center; 
     width: 125rem;
-    height: 0rem;
+    height: auto;
     padding: 3rem;
     
-    color: var(--texto-organismo);
+    color: var(--texto-ecossistema);
     font-family: "Jost", sans-serif;;
     font-size: 1.5rem;
 }
@@ -252,10 +240,10 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1175px;
+    width: 300rem;
     height: auto;
-    padding: 5rem;
-    background-color: var(--elementos-organismo); 
+    padding: 4rem;
+    background-color: var(--elementos-ecossistema); 
     border-radius: 3rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
@@ -263,26 +251,15 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     text-align: left;
 }
 
-.img-org{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    top: 2rem; 
-    width: 26.5rem;
-    height: auto;
-    margin-right: auto;
-    background-image: none;
-    border-radius: 2rem;
-}
-
 .material{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 125rem;
+    width: 70rem;
     height: 0rem;
     padding: 7rem;
 
+    color: var(--texto-ecossistema);
     font-family: "Jost", sans-serif;;
     font-size: 2.3rem;
     text-align: left;
@@ -306,7 +283,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     border-radius: 3rem;
 }
 
-.video1{
+.video4{
     border-radius: 3rem;
 }
 
@@ -314,10 +291,10 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 121rem;
+    width: 70rem;
     height: 0rem;
     padding: 7rem;
-
+    color: var(--texto-ecossistema);
     font-family: "Jost", sans-serif;;
     font-size: 2.5rem;
     text-align: left;
@@ -331,9 +308,11 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 109rem;
+    width:60rem;
     height: 10rem;
     padding: 3rem;
+
+    color: var(--texto-ecossistema);
     font-family: "Jost", sans-serif;
     font-size: 2.3rem;
 }
@@ -343,8 +322,6 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     justify-content: center;
     align-items: center;   
 }
-
-
 
 button {
     display: flex;
@@ -361,8 +338,3 @@ button {
     font-size: 2.5rem;
     text-align: center;
 }
-
-
-
-
-
