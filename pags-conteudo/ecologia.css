@@ -123,6 +123,32 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     padding: 15rem; 
 }
 
+.parte1 h2{
+    display: flex;
+    justify-content: center; 
+    width: 32rem;
+    height: 7rem;
+    padding: 3rem;
+    font-family: "Jost", sans-serif;;
+    font-size: 2rem;
+
+}
+.parte4 h2{
+    display: flex;
+    justify-content: center; 
+    width: 100rem;
+    height: 7rem;
+    padding: 3rem;
+    font-family: "Jost", sans-serif;;   
+    font-size: 2rem;
+    color: var(--texto-ecologia);
+}
+
+.parte4 iframe{
+    width: 130rem;
+    height: 25rem;
+}
+
 .pergunta {
     display: flex;
     justify-content: center; 
@@ -156,31 +182,37 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     text-align: left;
 }
 
-.img-ecologia{
+.resposta1 img{
     display: flex;
     justify-content: center;
     align-items: center; 
     top: 2rem; 
-    width: 26.5rem;
+    width: 40rem;
     height: auto;
     background-image: none;
     border-radius: 2rem;
 }
 
 .parte2{
-    padding: 10rem; 
+    padding: 15rem; 
+    width: 50%; 
+            margin: -15rem; 
 }
 
-.cara {
+.parte2 h2{
     display: flex;
     justify-content: center; 
-    width: 129rem;
-    height: 0rem;
+    width: 159rem;
+    height: 7rem;
     padding: 3rem;
-    
     color: var(--texto-ecologia);
     font-family: "Jost", sans-serif;;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    
+}
+
+.parte2{
+    align-items: center;
 }
 
 .resposta2 { 
@@ -193,29 +225,44 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     background-color: var(--elementos-ecologia); 
     border-radius: 3rem;
     color: var(--texto-geral);
-    font-family: "Jost", sans-serif;;
+    font-family: "Jost", sans-serif;
     font-size: 1.9rem;
     text-align: left;
+    
+    
 }
 
-
+.resposta2 p{
+    margin-top: 0rem;
+    align-items: center;
+    
+}
 .parte3{
     padding: 10rem; 
 }
 
-.conservacao {
+.parte3 h2{
     display: flex;
     justify-content: center; 
-    width: 125rem;
-    height: auto;
+    width: 150rem;
+    height: 7rem;
     padding: 3rem;
-    
+    font-family: "Jost", sans-serif;;   
+    font-size: 2rem;
     color: var(--texto-ecologia);
-    font-family: "Jost", sans-serif;;
-    font-size: 1.5rem;
+
 }
 
+.resposta3 div{
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .resposta3{
+    width: 100rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,16 +283,16 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     text-align: left;
 }
 
-.img-cons{
+.resposta3 img{
     display: flex;
     justify-content: center;
     align-items: center; 
     top: 2rem; 
-    width: 26.5rem;
+    width: 50rem;
     height: auto;
     margin-right: auto;
     background-image: none;
-    border-radius: 20rem;
+    border-radius: 17rem;
 }
 
 .material{
@@ -281,6 +328,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 
 .video3{
     border-radius: 3rem;
+    
 }
 
 .mp-prof {
@@ -300,7 +348,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     padding: 5.5rem;
 }
 
-.botao-titulo {
+.botao h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,20 +370,27 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
-    width: 20rem;
+    height: 4rem;
+    width: 30rem;
     padding: 2.5rem;
 
     background-color: var(--elementos-ecologia); 
     border-radius: 1rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
+    border: none;
 }
 
 .img-ecologia{
     width: 30%;
     height: 50%;
 
+}
+
+.parte3{
+    padding: 15rem;
+    width: 50%; 
+    margin: -15rem; 
 }

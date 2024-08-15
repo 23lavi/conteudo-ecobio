@@ -127,18 +127,16 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     padding: 15rem; 
 }
 
-.pergunta {
+.parte1 h2{
     display: flex;
     justify-content: center; 
-    width: 110rem;
-    height: 0rem;
+    width: 27rem;
+    height: 1rem;
     padding: 3rem;
-    
-    color: var(--texto-biosfera);
     font-family: "Jost", sans-serif;;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: #3F2913;
 }
-
 .resposta1{
     display: flex;
     justify-content: center;
@@ -172,19 +170,19 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 }
 
 .parte2{
-    padding: 10rem; 
+    
 }
 
-.cara {
+.parte2 h2 {
     display: flex;
     justify-content: center; 
-    width: 129rem;
+    width: 207rem;
     height: 0rem;
     padding: 3rem;
     
     color: var(--texto-biosfera);
     font-family: "Jost", sans-serif;;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .resposta2{
@@ -223,7 +221,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     padding: 10rem; 
 }
 
-.divisao {
+.parte3 h2 {
     display: flex;
     justify-content: center; 
     width: 125rem;
@@ -254,6 +252,18 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     font-family: "Jost", sans-serif;;
     font-size: 1.9rem;
     text-align: left;
+}
+
+.parte3 img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 2rem; 
+    width: 70rem;
+    height: auto;
+    background-image: none;
+    border-radius: 1rem;
+
 }
 
 .img-divisao{
@@ -299,6 +309,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 }
 
 .video2{
+    margin-right: 15rem;
     border-radius: 3rem;
 }
 
@@ -341,16 +352,16 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
-    width: 20rem;
+    height: 4rem;
+    width: 30rem;
     padding: 2.5rem;
-
-    background-color: var(--elementos-organismo); 
+    background-color: var(--elementos-ecologia); 
     border-radius: 1rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
+    border: none;
 }
 
 
