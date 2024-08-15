@@ -4,11 +4,19 @@
     font-style:normal;
     color:#054C00;
     text-decoration: none;
+    margin-right: 577px;
+    font-size: 55px;
 }
  
 .ecobioa{
 color:#054C00;
     text-decoration: none;
+    text-align: left;
+    
+}
+
+.ecobioa > h1{
+    align-content: left;
 }
 
 body {
@@ -18,19 +26,35 @@ body {
 }
 
 header {
-    background-color: #cccccc;
+    background-color: #D9D9D9;
     padding: 10px 20px;
     color: #333;
+    padding: 10px 20px;
+    min-height: 40px; 
+    display: flex;
+    align-items: center; 
+
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.logo {
-    height: 40px;
+
+.alt-cab{
+    height: 70px; 
+    padding: 20px;
+    display: flex;
+    align-items: center
+}
+
+.logo img {
+    width: fit-content;
+    height: 155px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -44,15 +68,27 @@ nav {
 }
 
 nav .btn {
-    padding: 10px 15px;
+    padding: 8px 20px; 
     text-decoration: none;
-    color: white;
-    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 55px;
     display: inline-block;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    color:#ffffff;  
+    margin-right: px;
 }
 
 .btn.verde {
     background-color: #076500;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ color:#ffffff;
+margin: 10px;
 }
 
 .btn.cinza {
@@ -61,14 +97,21 @@ nav .btn {
   font-weight: 500;
   font-style: normal;
     color:#000000;
+    margin: 10px;
 }
 
-.btn.pequeno {
-    background-color: #007bff;
-    padding: 5px 10px;
-    font-size: 12px;
-
+.btn-duvida{
+        position: absolute;
+        top: 10px;
+        right: 10px; 
+    
+   
 }
+.btn-duvida img {
+    width: 25px;  
+    height: auto; 
+}
+
 
 .slider {
     font-family: "Jost", sans-serif;
@@ -84,6 +127,61 @@ nav .btn {
     transition: transform 0.5s ease-in-out;
 
 }
+
+.org{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   color:#ffffff;
+   font-size: 70px;
+   margin-left: 70px;
+
+}
+
+.bios{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   color:#ffffff;
+   font-size: 70px;
+   margin-left: 70px;
+
+}
+
+.ecoo{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   color:#ffffff;
+   font-size: 70px;
+   margin-left: 70px;
+
+}
+
+.ecoos{ font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   color:#ffffff;
+   font-size: 70px;
+   margin-left: 70px;
+
+}
+
+.text-content{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    color: #ffff;
+    width: 50%;
+    font-size: 25px;
+    margin-top: -68px;
+    margin-left: 70px;
+    
+}
+
 .logo{
     width: 100%;
     height: 201px;
@@ -102,39 +200,39 @@ nav .btn {
 }
 
 #slide1{
-    background-image: url('../img/organismo-menu-img.jpg');
+    background-image: url('../pags-conteudo/img/organismo-menu-img.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #slide2{
-    background-image: url('../img/biosfera-img.jpg');
+    background-image: url('../pags-conteudo/img/biosfera-img.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #slide3{
-    background-image: url('../img/ecologia-img.jpg');
+    background-image: url('../pags-conteudo/img/ecologia-img.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #slide4{
-    background-image: url('../img/ecossistema-img.webp');
+    background-image: url('../pags-conteudo/img/ecossistema-img.webp');
     background-size: cover;
     background-position: center;
 }
-
 
 .arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    color: #E9EBF8;
     border: none;
     padding: 10px;
     cursor: pointer;
+    font-size: 30px;
 }
 
 .arrow.left {
@@ -144,6 +242,7 @@ nav .btn {
 .arrow.right {
     right: 10px;
 }
+
 
 .content-links, .games-list {
     display: flex;
@@ -159,4 +258,28 @@ nav .btn {
     background: #f9f9f9;
     width: 200px;
     text-align: center;
+}
+.nav-item {
+    display: inline-block;
+    background-color: #0064005e; 
+    border-radius: 50%; 
+    width: 10px; 
+    height: 10px; 
+    text-indent: -9999px; 
+    overflow: hidden;
+    transition: all .2s ease; 
+
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+}
+
+
+.nav-item.active, 
+.nav-item:hover {
+    width: 90px; 
+    border-radius: 100%; 
 }

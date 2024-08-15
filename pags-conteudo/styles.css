@@ -1,0 +1,226 @@
+body {
+    background-image: url(img/imagem\ de\ fundo\ quiz.png);
+    font-family: "Margarine", sans-serif; 
+    background-color: #e8f5e9; 
+    
+    color: #3F2913;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #575A21; 
+    font-size: 5rem; 
+    margin-top: 8rem;
+    margin-bottom: 1.25rem; 
+    
+}
+h3 {
+    color: #575A21; 
+    font-size: 7rem; 
+    margin-top: 8rem;
+    margin-bottom: 1.25rem; 
+    
+}
+
+p {
+    color: #ffffff;
+    font-size: 2em; 
+    margin-bottom: 4.375rem; 
+}
+
+h2 {
+    
+    border-radius: 0.625rem;
+    font-size: 2em;
+    margin: 0.313rem;
+    padding: 0.938rem;
+    background-color: #C8B88E;
+  
+}
+
+
+.botao-v{
+    color: #4B6636;
+    margin-right: 100%;
+   
+}
+
+.respostas {
+    width: 80%;
+    max-width: 50rem;
+    margin: 3.125rem auto;
+    padding: 6.25rem ;
+    background-color: #4B6636;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+
+}
+
+.respostass {
+    width: 80%;
+    max-width: 50rem;
+    margin: 3.125rem auto;
+    padding: 6.25rem ;
+    background-color: #4B6636;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+
+}
+
+.teste{
+    color: #020000;
+    font-size: 1.2em; 
+    margin-bottom: 3.125rem;
+}
+
+
+.fundo {
+    width: 80%;
+    max-width: 50rem;
+    margin: 1.875rem auto;
+    padding: 6.25rem ;
+    background-color: #4B6636;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+
+.finalizado{
+    background-image: url(img/imagem\ fundo\ final.jpg);
+  
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem; 
+    }
+
+    a {
+        font-size: 1.2em; 
+        padding: 10px 20px; 
+    }
+
+    .fundo {
+        width: 90%; 
+        padding: 20px; 
+    }
+}
+
+
+#botao-proxima {
+    color: #775809;
+    font-family: "Skranji", sans-serif;
+    padding: 5px 30px; 
+    font-size: 1.5em;
+    background-color: #C8B88E;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    
+
+}
+
+#botao-proxima:hover{
+    background-color: #3F3022;
+}
+
+
+
+
+#botao-verdadeiro {
+    
+    color: #775809;
+    font-family: "Skranji", sans-serif;
+    padding: 3px 20px; 
+    font-size: 1.5em;
+    background-color: #C8B88E;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#botao-falso {
+    margin-left: 10%;
+    color: #775809;
+    font-family: "Skranji", sans-serif;
+    padding: 3px 50px;
+    font-size: 1.5em;
+    background-color: #C8B88E;
+    border: none;
+    border-radius: 3px; 
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#botao-verdadeiro:hover,
+#botao-falso:hover {
+    background-color: #a89b6f; 
+    color: #4c8535; 
+}
+
+
+#botao-jogar {
+    font-family: "Margarine", sans-serif;
+    padding: 15px 50px; 
+    font-size: 1.5em; 
+    color: #000000;
+    background-color: #8EA267; 
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase; 
+    transition: background-color 0.3s; 
+}
+
+#botao-jogar:hover {
+    background-color: #4c8535; 
+}
+
+
+#botao-reiniciar {
+
+    font-family: "Skranji", sans-serif;
+    padding: 10px 10px; 
+    font-size: 1.5em; 
+    color: #3F3022;
+    background-color: #C8B88E; 
+    border: none;
+    border-radius: 10px;
+    margin-right: 3%;
+    cursor: pointer;
+    text-transform: uppercase; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+#botao-inicio {
+
+    font-family: "Skranji", sans-serif;
+    padding: 10px 30px; 
+    font-size: 1.5em; 
+    color: #3F3022;
+    background-color: #C8B88E; 
+    border: none;
+    border-radius: 10px;
+    margin-left: 2%;
+    cursor: pointer;
+    text-transform: uppercase; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+#botao-inicio:hover,
+#botao-reiniciar:hover {
+    background-color: #4c8535; 
+}
