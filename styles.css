@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/imagem\ de\ fundo\ quiz.png);
+    background-image: url(pags-conteudo/imagem\ de\ fundo\ quiz.png);
     font-family: "Margarine", sans-serif; 
     background-color: #e8f5e9; 
     
@@ -11,10 +11,13 @@ body {
 
 h1 {
     color: #575A21; 
-    font-size: 5rem; 
+    font-size: 9rem; 
     margin-top: 8rem;
     margin-bottom: 1.25rem; 
-    
+    width:80%;
+    text-align: center;
+    align-content: center;
+    margin-left: 10.2rem;
 }
 h3 {
     color: #575A21; 
@@ -43,7 +46,7 @@ h2 {
 
 .botao-v{
     color: #4B6636;
-    margin-right: 100%;
+    margin-left: -96%;
    
 }
 
@@ -51,7 +54,7 @@ h2 {
     width: 80%;
     max-width: 50rem;
     margin: 3.125rem auto;
-    padding: 6.25rem ;
+    padding: 5.25rem ;
     background-color: #4B6636;
     border-radius: 1.25rem;
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
@@ -88,7 +91,7 @@ h2 {
 
 
 .finalizado{
-    background-image: url(img/imagem\ fundo\ final.jpg);
+    background-image: url(pags-conteudo/imagem\ fundo\ final.jpg);
   
     margin: 0;
     padding: 0;
@@ -171,16 +174,16 @@ h2 {
 
 #botao-jogar {
     font-family: "Margarine", sans-serif;
-    padding: 15px 50px; 
-    font-size: 1.5em; 
+    padding: 10px 40px; 
+    font-size: 2rem; 
     color: #000000;
     background-color: #8EA267; 
     border: none;
-    border-radius: 30px; 
+    border-radius: 35px; 
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase; 
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
 }
 
 #botao-jogar:hover {
@@ -191,24 +194,25 @@ h2 {
 #botao-reiniciar {
 
     font-family: "Skranji", sans-serif;
-    padding: 10px 10px; 
+    padding: 15px 40px; 
     font-size: 1.5em; 
     color: #3F3022;
     background-color: #C8B88E; 
     border: none;
     border-radius: 10px;
-    margin-right: 3%;
+    margin-right: 20%;
     cursor: pointer;
     text-transform: uppercase; 
     text-decoration: none;
     transition: background-color 0.3s; 
+    
 }
 
 #botao-inicio {
 
     font-family: "Skranji", sans-serif;
-    padding: 10px 30px; 
-    font-size: 1.5em; 
+    padding: 15px 55px; 
+    font-size: 1.5rem; 
     color: #3F3022;
     background-color: #C8B88E; 
     border: none;
@@ -218,9 +222,10 @@ h2 {
     text-transform: uppercase; 
     text-decoration: none;
     transition: background-color 0.3s; 
+    
 }
 
 #botao-inicio:hover,
 #botao-reiniciar:hover {
-    background-color: #4c8535; 
+    background-color: #9e9276; 
 }
