@@ -59,10 +59,11 @@ input[type="checkbox"] {
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color:var(--fundo);
+    background-color:#cccbcb;
     padding-top: 60px;
     transition: left 0.3s ease;
     z-index: 1000;
+    margin-top: 12.5rem;
 }
 
 .menu a {
@@ -70,10 +71,16 @@ input[type="checkbox"] {
     color: var(--texto-geral);
     text-decoration: none;
     padding: 15px 20px;
+    font-size: 'Jost' , sans-serif;
+    font-family: "Jost", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
+
 .menu a:hover {
-    background-color: var(--fundo);
+    background-color: #acacac;
 }
 
 
@@ -113,7 +120,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 4rem;
     color: var(--titulo-menu);
-}
+} 
 
 .img-duvida {
     position: fixed;
@@ -167,10 +174,6 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     height: auto;
     background-image: none;
     border-radius: 2.5rem;
-}
-
-.parte2{
-    
 }
 
 .parte2 h2 {
@@ -363,6 +366,3 @@ button {
     text-align: center;
     border: none;
 }
-
-
-

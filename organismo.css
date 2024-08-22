@@ -29,17 +29,18 @@ input[type="checkbox"] {
 }
 
 
-.icone-menu {
+.icone-menu{
     cursor: pointer;
-    width: 2.5rem; 
+    width: 0rem; 
     height: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    position: absolute;
-    top: 6rem;
+    top: 2rem;
     left: 5rem;
     z-index: 1001;
+    gap: 0.70rem;
+    margin-top: 2.25rem;
+   
 }
 
 .icone-menu div {
@@ -47,6 +48,9 @@ input[type="checkbox"] {
     height: 4px;
     border-radius: 2px;
     transition: all 0.3s ease;
+    width: 2.5rem;
+    gap: 0.19rem;
+    top:2rem;
 }
 
 
@@ -56,10 +60,11 @@ input[type="checkbox"] {
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color:var(--fundo);
+    background-color:#cccbcb;
     padding-top: 60px;
     transition: left 0.3s ease;
     z-index: 1000;
+    margin-top: 12.5rem;
 }
 
 .menu a {
@@ -67,10 +72,16 @@ input[type="checkbox"] {
     color: var(--texto-geral);
     text-decoration: none;
     padding: 15px 20px;
+    font-size: 'Jost' , sans-serif;
+    font-family: "Jost", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
+
 .menu a:hover {
-    background-color: var(--fundo);
+    background-color: #acacac;
 }
 
 
@@ -362,5 +373,3 @@ button {
     font-size: 2.5rem;
     text-align: center;
 }
-
-

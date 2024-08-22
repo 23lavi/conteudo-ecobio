@@ -35,9 +35,10 @@ input[type="checkbox"] {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 6rem;
+    top: 5.5rem;
     left: 5rem;
     z-index: 1001;
+    gap: 3px;
 }
 
 .icone-menu div {
@@ -54,10 +55,11 @@ input[type="checkbox"] {
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color:var(--fundo);
+    background-color:#cccbcb;
     padding-top: 60px;
     transition: left 0.3s ease;
     z-index: 1000;
+    margin-top: 12.5rem;
 }
 
 .menu a {
@@ -65,12 +67,17 @@ input[type="checkbox"] {
     color: var(--texto-geral);
     text-decoration: none;
     padding: 15px 20px;
+    font-size: 'Jost' , sans-serif;
+    font-family: "Jost", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
+
 
 .menu a:hover {
-    background-color: var(--fundo);
+    background-color: #acacac;
 }
-
 
 input[type="checkbox"]:checked ~ .menu {
     left: 0;

@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Laila:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="script.js" defer ></script>
     <title>EcoBio</title>
 </head>
@@ -18,19 +21,27 @@
     <header class="alt-cab">
         <div class="header-content">
             <a class="logo">
-                <img src="../pags-conteudo/img/logo ecobio2.png" alt="Logo EcoBio" >
+                <img src="./pags-conteudo/img/logo ecobio2.png" alt="Logo EcoBio" >
             </a>
             <a href="index.html" class="ecobioa">
                 <h1 class="ecobioh1">ECOBIO</h1>
                 
             </a>
-            <nav class="cont" >
-                    <a href="#" class="btn verde" id="content-btn">CONTEÚDO</a>
+            <nav >
+                <div class="dropdown">
+                    <button href="#"  class="btn verde" id="content-btn">CONTEÚDO</button>
+                    <div class="dropdown-content">
+                        <a href="organismo.html">1. Organismo</a>
+                        <a href="biosfera.html">2. Biosfera</a>
+                        <a href="ecologia.html">3. Ecologia</a>
+                        <a href="ecossistema.html">4. Ecossistemas</a>
+                        </div>  
+                </div>
                 <a href="sobre-nos.html" class="btn cinza">SOBRE</a>
                 <a href="jogar.html" class="btn cinza">JOGOS</a>
                
                 <a href="duvidas.html" target="_blank" class="btn-duvida">
-                    <img src="../pags-conteudo/img/icone-duvida-img.png" alt="ícone de dúvida">
+                    <img src="./pags-conteudo/img/icone-duvida-img.png" alt="ícone de dúvida">
                 </a>
             </nav>
         </div>
