@@ -232,7 +232,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .ex {
     display: flex;
     justify-content: center; 
-    width: 125rem;
+    width: 115rem;
     height: auto;
     padding: 3rem;
     
@@ -296,6 +296,8 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 
 .video4{
     border-radius: 3rem;
+    width: auto;
+    height: 30rem;
 }
 
 .mp-prof {

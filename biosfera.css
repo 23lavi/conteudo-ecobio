@@ -269,16 +269,6 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 
 }
 
-.img-divisao{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    top: 2rem; 
-    width: 26.5rem;
-    height: auto;
-    background-image: none;
-    border-radius: 1rem;
-}
 
 .material{
     display: flex;
