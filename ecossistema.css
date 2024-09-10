@@ -344,7 +344,7 @@ button {
     width: 20rem;
     padding: 2.5rem;
 
-    background-color: var(--elementos-organismo); 
+    background-color: va; 
     border-radius: 1rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
