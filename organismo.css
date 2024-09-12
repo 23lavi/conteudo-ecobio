@@ -135,7 +135,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .img-duvida {
     position: fixed;
     width: 5rem;
-    left: 114rem;
+    left: 110rem;
     bottom: 0;
     top: 16rem;   
 }
@@ -194,13 +194,13 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .cara {
     display: flex;
     justify-content: center; 
-    width: 38.5rem;
+    width: 53rem;
     height: 0rem;
     padding: 3rem;
 
     color: var(--texto-organismo);
     font-family: "Jost", sans-serif;;
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -214,7 +214,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 69rem;
+    width: 55rem;
     height: 22rem;
     padding: 4.5rem;
     background-color: var(--elementos-organismo); 
@@ -265,11 +265,12 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     width: 1175px;
     height: auto;
     padding: 5rem;
+
     background-color: var(--elementos-organismo); 
     border-radius: 3rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -353,24 +354,21 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .botao-jogar{
     display: flex;
     justify-content: center;
-    align-items: center;  
-    border: none;
+    align-items: center;   
 }
-
-
 
 button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
-    width: 20rem;
+    height: 4rem;
+    width: 30rem;
     padding: 2.5rem;
-    border:none;
     background-color: var(--elementos-organismo); 
     border-radius: 1rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
+    border: none;
 }

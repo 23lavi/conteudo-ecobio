@@ -136,7 +136,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     padding: 3rem;
     font-family: "Jost", sans-serif;;
     font-size: 2rem;
-    color: var(--texto-biosfera);
+    color: var();
 }
 .resposta1{
     display: flex;
