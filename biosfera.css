@@ -17,14 +17,8 @@
 
 body{
     background-color: var(--fundo);
-    width: 1920px;
-    height: 100px;
-}
-
-body{
-    background-color: var(--fundo);
-    width: 1920px;
-    height: 100px;
+    width: 120rem;
+    height: 6.25rem;
 }
 
 input[type="checkbox"] {
@@ -125,7 +119,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .img-duvida {
     position: fixed;
     width: 5rem;
-    left: 114rem;
+    left: 110rem;
     bottom: 0;
     top: 16rem;   
 }
@@ -142,7 +136,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     padding: 3rem;
     font-family: "Jost", sans-serif;;
     font-size: 2rem;
-    color: #3F2913;
+    color: var(--texto-biosfera);
 }
 .resposta1{
     display: flex;
@@ -170,18 +164,19 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     justify-content: center;
     align-items: center; 
     top: 2rem; 
-    width: 26.5rem;
+    width: 22rem;
     height: auto;
     background-image: none;
     border-radius: 2.5rem;
+    
 }
 
 .parte2 h2 {
     display: flex;
     justify-content: center; 
-    width: 207rem;
+    width: 185rem;
     height: 0rem;
-    padding: 3rem;
+    padding: 5rem;
     
     color: var(--texto-biosfera);
     font-family: "Jost", sans-serif;;
@@ -198,14 +193,14 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 89rem;
+    width: 65rem;
     height: 22rem;
     padding: 4rem;
     background-color: var(--elementos-biosfera); 
     border-radius: 3rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -227,13 +222,13 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .parte3 h2 {
     display: flex;
     justify-content: center; 
-    width: 125rem;
-    height: 0rem;
+    width: 160rem;
+    height: auto;
     padding: 3rem;
     
     color: var(--texto-biosfera);
     font-family: "Jost", sans-serif;;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .resposta3{
@@ -253,20 +248,8 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     border-radius: 3rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     text-align: left;
-}
-
-.parte3 img{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    top: 2rem; 
-    width: 70rem;
-    height: auto;
-    background-image: none;
-    border-radius: 1rem;
-
 }
 
 
@@ -287,6 +270,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
 }
 
 .mapa {
@@ -302,8 +286,8 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 }
 
 .video2{
-    margin-right: 15rem;
-    border-radius: 3rem;
+    border-radius: 4rem;
+    height: 24rem;
 }
 
 .mp-prof {
@@ -348,7 +332,7 @@ button {
     height: 4rem;
     width: 30rem;
     padding: 2.5rem;
-    background-color: var(--elementos-ecologia); 
+    background-color: var(--elementos-biosfera); 
     border-radius: 1rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;

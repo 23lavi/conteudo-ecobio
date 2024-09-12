@@ -148,8 +148,8 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .pergunta {
     display: flex;
     justify-content: center; 
-    width: 105rem;
-    height: 0rem;
+    width: 27rem;
+    height: 1rem;
     padding: 3rem;
 
     color: var(--texto-organismo);
@@ -292,7 +292,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     width: 125rem;
     height: 0rem;
     padding: 7rem;
-
+    color: var(--texto-organismo);
     font-family: "Jost", sans-serif;;
     font-size: 2.3rem;
     text-align: left;
@@ -345,6 +345,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     width: 109rem;
     height: 10rem;
     padding: 3rem;
+    color: var(--texto-organismo);
     font-family: "Jost", sans-serif;
     font-size: 2.3rem;
 }
