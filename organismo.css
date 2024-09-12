@@ -243,7 +243,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .celular {
     display: flex;
     justify-content: center; 
-    width: 125rem;
+    width: 150rem;
     height: 0rem;
     padding: 3rem;
     
