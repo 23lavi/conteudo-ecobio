@@ -154,7 +154,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 
     color: var(--texto-organismo);
     font-family: "Jost", sans-serif;;
-    font-size: 1.5rem;
+    font-size: 1.56rem;
 }
 
 .resposta1{
@@ -243,13 +243,13 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .celular {
     display: flex;
     justify-content: center; 
-    width: 150rem;
+    width: 145rem;
     height: 0rem;
     padding: 3rem;
     
     color: var(--texto-organismo);
     font-family: "Jost", sans-serif;;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .resposta3{
