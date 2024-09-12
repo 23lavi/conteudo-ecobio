@@ -20,8 +20,7 @@
 
 body{
     background-color: var(--fundo);
-    width: 1920px;
-    height: 100px;
+    
 }
 
 input[type="checkbox"] {

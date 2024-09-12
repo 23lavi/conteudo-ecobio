@@ -18,12 +18,14 @@ h1 {
     text-align: center;
     align-content: center;
     margin-left: 10.2rem;
+    margin-top: 10rem;
 }
 h3 {
     color: #575A21; 
     font-size: 7rem; 
     margin-top: 8rem;
-    margin-bottom: 1.25rem; 
+    margin-bottom: 1.25rem;
+    margin-top:10rem; 
     
 }
 
@@ -98,13 +100,18 @@ h2 {
 }
 
 
+.questoes{
+    justify-content: center;
+    align-items:center;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 3rem; 
     }
 
     a {
-        font-size: 1.2em; 
+        font-size: 1.2rem; 
         padding: 10px 20px; 
     }
 
