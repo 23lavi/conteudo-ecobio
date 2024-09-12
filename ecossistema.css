@@ -142,7 +142,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .img-duvida {
     position: fixed;
     width: 5rem;
-    left: 114rem;
+    left: 110rem;
     bottom: 0;
     top: 16rem;   
 }
@@ -154,12 +154,13 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .pergunta {
     display: flex;
     justify-content: center; 
-    width: 105rem;
+    width: 26rem;
     height: 0rem;
     padding: 3rem;
 
     font-family: "Jost", sans-serif;;
     font-size: 1.5rem;
+    color: var(--texto-ecossistema);
 }
 
 .resposta1{
@@ -201,7 +202,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .comp{
     display: flex;
     justify-content: center; 
-    width: 129rem;
+    width: 100rem;
     height: 0rem;
     padding: 3rem;
     
@@ -210,12 +211,17 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     font-size: 1.5rem;
 }
 
+.img-comp{
+    border-radius: 2.3rem;
+    width: 30rem;
+}
+
 .resposta2 { 
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 89rem;
-    height: 60rem;
+    width: 65rem;
+    height: 40rem;
     padding: 4rem;
     background-color: var(--elementos-ecossistema); 
     border-radius: 3rem;
@@ -296,8 +302,8 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 
 .video4{
     border-radius: 3rem;
-    width: auto;
-    height: 30rem;
+    width: 100rem;
+    height: 20rem;
 }
 
 .mp-prof {
@@ -340,14 +346,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
-    width: 20rem;
+    height: 4rem;
+    width: 30rem;
     padding: 2.5rem;
-
-    background-color: va; 
+    background-color: var(--elementos-ecossistema); 
     border-radius: 1rem;
     color: var(--texto-geral);
     font-family: "Jost", sans-serif;;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
+    border: none;
 }

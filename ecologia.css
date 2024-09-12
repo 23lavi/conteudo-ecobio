@@ -121,11 +121,10 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .img-duvida {
     position: fixed;
     width: 5rem;
-    left: 114rem;
+    left: 110rem;
     bottom: 0;
     top: 16rem;   
 }
-
 .parte1{
     padding: 15rem; 
 }
@@ -133,23 +132,15 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .parte1 h2{
     display: flex;
     justify-content: center; 
-    width: 32rem;
+    width: 30rem;
     height: 7rem;
     padding: 3rem;
     font-family: "Jost", sans-serif;;
     font-size: 2rem;
+    color: var(--texto-ecologia);
 
 }
-.parte4 h2{
-    display: flex;
-    justify-content: center; 
-    width: 100rem;
-    height: 7rem;
-    padding: 3rem;
-    font-family: "Jost", sans-serif;;   
-    font-size: 2rem;
-    color: var(--texto-ecologia);
-}
+
 
 .parte4 iframe{
     width: 130rem;
@@ -159,7 +150,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
 .pergunta {
     display: flex;
     justify-content: center; 
-    width: 95rem;
+    width: 157rem;
     height: 0rem;
     padding: 3rem;
     
@@ -200,16 +191,18 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     border-radius: 2rem;
 }
 
+
+
 .parte2{
     padding: 15rem; 
     width: 50%; 
-            margin: -15rem; 
+    margin: -15rem; 
 }
 
 .parte2 h2{
     display: flex;
     justify-content: center; 
-    width: 159rem;
+    width: 157rem;
     height: 7rem;
     padding: 3rem;
     color: var(--texto-ecologia);
@@ -245,13 +238,13 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     
 }
 .parte3{
-    padding: 10rem; 
+    padding: 2rem; 
 }
 
 .parte3 h2{
     display: flex;
     justify-content: center; 
-    width: 150rem;
+    width: 135rem;
     height: 7rem;
     padding: 3rem;
     font-family: "Jost", sans-serif;;   
@@ -279,7 +272,7 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1175px;
+    width: 56rem;
     height: 424px;
     padding: 4rem;
     background-color: var(--elementos-ecologia); 
@@ -295,24 +288,22 @@ input[type="checkbox"]:checked ~ .icone-menu div:nth-child(3) {
     justify-content: center;
     align-items: center; 
     top: 2rem; 
-    width: 50rem;
+    width: auto;
     height: auto;
     margin-right: auto;
     background-image: none;
     border-radius: 17rem;
 }
 
-.material{
+.parte4 h2{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90.5rem;
-    height: 0rem;
-    padding: 7rem;
+    justify-content: center; 
+    width: 90rem;
+    height: 7rem;
+    padding: 10rem;
+    font-family: "Jost", sans-serif;;   
+    font-size: 2rem;
     color: var(--texto-ecologia);
-    font-family: "Jost", sans-serif;;
-    font-size: 2.3rem;
-    text-align: left;
 }
 
 .estudo{
