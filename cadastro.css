@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo:#D9D9D9;
+    --titulo-menu:#ECEFE4;
+    --texto-geral:#000000;
+    --texto-biosfera:#3F2913;
+    --elementos-organismo:#9FBB99;
+    --elementos-biosfera:#CBC8B3;
+    --elementos-ecologia:#94B36D;
+    --elementos-ecossistema:#B3BECB;
+}
