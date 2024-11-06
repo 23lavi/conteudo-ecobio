@@ -37,7 +37,7 @@ body {
 }
 
 .caixa {
-    background-color: var(--elementos-recuperar);
+    background-color: var(--fundo);
     width: 450px;
     padding: 45px;
     border-radius: 15px;
@@ -72,13 +72,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
 }
 
 .ecobio img {
     width: 120px;
     height: auto;
-    margin-right: 10px;
+    margin-right: -15px;
 }
 
 .ecobio h1 {

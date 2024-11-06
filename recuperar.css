@@ -95,13 +95,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
 }
 
 .ecobio img {
     width: 120px;
     height: auto;
-    margin-right: 10px;
+    margin-right: -15px;
 }
 
 .ecobio h1 {
