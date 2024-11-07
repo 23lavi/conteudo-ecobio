@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Tela de Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <head>
-        <div class="login">
-            <img class="img-login" src="./pags-conteudo/img/img-login.jpeg" alt="img da pagina de login">
-
-            <h1>BEM-VINDO DE VOLTA!</h1>
-            <h2>Faça login com sua conta para ampliar seu conhecimento!</h2>
-            
-            <form action="/enviar-dados" method="post">
-                <label for="email">E-mail</label>
-                <input type="text" id="email" name="email" placeholder="Digite..." required><br><br>
-        
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" placeholder="Digite..." required><br><br>
-
-                <label for="lembrar">
-                    <input type="checkbox" id="lembrar" name="lembrar" placeholder="Digite..." required>
-                    Relembrar da próxima vez
-                </label><br><br>
-
-               <a href="">Recuperar senha</a>
-
+    <div class="container">
+        <div class="login-box">
+            <a href="duvidas.html" target="_blank" class="help-icon">
+                <img src="./pags-conteudo/img/icone-duvida-img.png" alt="ícone de dúvida">
+            </a>
+            <h2>BEM-VINDO DE VOLTA!</h2>
+            <p>Faça login com sua conta para ampliar seu conhecimento!</p>
+            <form>
+                <label class="type "for="email">E-mail ou Número de Telefone</label>
+                <input type="text" id="email" placeholder="Digite seu e-mail...">
+                
+                <label class="type" for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha ...">
+                
+                <div class="options">
+                    <label class="relembrar">Relembrar da próxima vez</label>
+                    <a href="./confirmacao.html">Recuperar senha</a>
+                </div>
+                
+                <button type="submit">ENTRAR</button>
             </form>
-            <button>Enviar</button>
-
-            <p>Cadastre-se no Ecobio e descubra mais sobre o nosso planeta! <a href="cadastrar">Clique para criar uma conta!</a></p>   
-            
-            <img class="img-duv" src="./pags-conteudo/img/icone-duvida-img.png" alt="icone de duvida">
+            <p class="signup">Cadastre-se no Ecobio e descubra mais sobre o nosso planeta! <a href="./cadastro.html">Clique para criar uma conta!</a></p>   
         </div>
-    </head>
+        <div class="image-section"></div>
+    </div>
 </body>
 </html>
