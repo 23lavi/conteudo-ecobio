@@ -62,6 +62,10 @@ body {
     text-decoration: none;
     border-radius: 6px;
     font-size: 16px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;   
 }
 
 .caixa a:hover {
@@ -84,7 +88,9 @@ body {
     font-size: 40px;
     color: var(--texto-recuperar);
     margin: 0;
-    
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style:normal;
 }
 
 

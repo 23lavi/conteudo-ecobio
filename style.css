@@ -85,12 +85,12 @@ nav .btn {
 .btn.verde {
     background-color: #076500;
     font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
- color:#ffffff;
-margin: 10px;
-border:none;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+    margin: 10px;
+    border:none;
 }
 
 .btn.cinza {

@@ -72,6 +72,10 @@ body {
     background-color: var(--elementos-recuperar2);
     margin-bottom: 20px;
     box-sizing: border-box;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 
@@ -83,6 +87,10 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .caixa button:hover {
@@ -107,7 +115,9 @@ body {
     font-size: 40px;
     color: var(--texto-recuperar);
     margin: 0;
-    
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style:normal;
 }
 
 

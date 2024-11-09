@@ -60,6 +60,10 @@ body {
     display: block;
     text-align: left;
     margin-bottom: 5px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .caixa input[type="password"] {
@@ -70,6 +74,10 @@ body {
     margin-bottom: 15px;
     background-color: var(--elementos-recuperar2);
     color: var(--texto2-recuperar);
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 
@@ -82,6 +90,10 @@ body {
     color: var(--texto2-recuperar);
     font-size: 16px;
     cursor: pointer;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .caixa button:hover {
@@ -105,5 +117,7 @@ body {
     font-size: 40px;
     color: var(--texto-recuperar);
     margin: 0;
-    
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style:normal;
 }
