@@ -1,16 +1,182 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 :root {
-    --fundo:#D9D9D9;
-    --titulo-menu:#ECEFE4;
-    --texto-geral:#000000;
-    --texto-biosfera:#3F2913;
-    --elementos-organismo:#9FBB99;
-    --elementos-biosfera:#CBC8B3;
-    --elementos-ecologia:#94B36D;
-    --elementos-ecossistema:#B3BECB;
+    --fundo: #D9D9D9;
+    --titulo-menu: #ECEFE4;
+    --texto-geral: #000000;
+    --texto-biosfera: #3F2913;
+    --texto-recuperar: #054C00;
+    --texto2-recuperar: #00183C;
+    --elementos-organismo: #9FBB99;
+    --elementos-biosfera: #CBC8B3;
+    --elementos-ecologia: #94B36D;
+    --elementos-recuperar: #e6e6e6;
+    --elementos-recuperar2: #E9EBF8;
+    --elementos-ecossistema: #B3BECB;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    background-image: url('./pags-conteudo/img/img-cadastro.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pag-cadastro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.748);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1205px;
+    gap: 20px;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.texto h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--texto-recuperar);
+    display: flex;
+    align-items: center;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.texto h1 {
+    font-size: 36px;
+    color: var(--texto-recuperar);
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.texto p {
+    color: var(--texto2-recuperar);
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-size: larger;
+}
+
+.cadastro {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.cadastro button.arrow {
+    position: absolute;
+    top: -90px;
+    left: -735px;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    color: var(--elementos-recuperar2);
+    cursor: pointer;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cadastro label {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--texto2-recuperar);
+}
+
+.cadastro input[type="text"],
+.cadastro input[type="email"],
+.cadastro input[type="password"] {
+    padding: 9px;
+    border: 1px solid var(--elementos-biosfera);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.cadastro button[type="submit"] {
+    padding: 10px;
+    background-color: var(--texto-biosfera);
+    color: var(--elementos-recuperar2);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 85%;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.cadastro button[type="submit"]:hover {
+    background-color: rgb(90, 57, 25);
+}
+
+.icone-duvida {
+    position: absolute;
+    bottom: 23px;
+    right: 40px;
+    width: auto;
+    height: 36px;
+    cursor: pointer;
+}
+
+.ecobio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecobio img {
+    width: 120px;
+    height: auto;
+    margin-right: -15px;
+}
+
+.ecobio h1 {
+    font-size: 40px;
+    color: var(--texto-recuperar);
+    margin: 4px;
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style:normal;
 }
