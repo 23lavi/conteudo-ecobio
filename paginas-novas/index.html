@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Laila:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer type="module" ></script>
+    <title>EcoBio</title>
+</head>
+<body>
+    
+    <header class="alt-cab">
+        <div class="header-content">
+            <a class="logo">
+                <img src="./pags-conteudo/img/logo ecobio2.png" alt="Logo EcoBio" >
+            </a>
+            <a href="index.html" class="ecobioa">
+                <h1 class="ecobioh1">ECOBIO</h1>
+            </a>
+            <div class="user">
+                <p></p>
+                <button>SAIR</button>
+            </div>
+            <nav >
+                <div class="dropdown">
+                    <button href="#"  class="btn verde" id="content-btn">CONTEÚDO</button>
+                    <div class="dropdown-content">
+                        <a href="organismo.html">1. Organismo</a>
+                        <a href="biosfera.html">2. Biosfera</a>
+                        <a href="ecologia.html">3. Ecologia</a>
+                        <a href="ecossistema.html">4. Ecossistemas</a>
+                    </div>  
+                </div>
+                <a href="sobre-nos.html" class="btn cinza">SOBRE</a>
+                <a href="jogar.html" class="btn cinza">JOGOS</a>
+               
+                <a href="duvidas.html" target="_blank" class="btn-duvida">
+                    <img src="./pags-conteudo/img/icone-duvida-img.png" alt="ícone de dúvida">
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" id="slide1">
+                <h2 class="org">ORGANISMO</h2>
+                <p class="text-content">O organismo é a unidade mais fundamental da Ecologia,
+                     sendo considerado um Sistema Ecológico elementar. Diferentemente dos outros,
+                      é limitado por uma cobertura por meio do qual ele troca energia e matéria com o meio ambiente.
+                       Seria o sistema mais bem definido e concreto dentro da Ecologia.</>
+            </div>
+            <div class="slide" id="slide2">
+                <h2 class="bios">BIOSFERA</h2>
+                <p class="text-content">Biosfera ou ecosfera é o conjunto de todos os ecossistemas da Terra, sendo o maior nível de organização ecológica. Ela inclui a biota e os compartimentos terrestres com os quais a biota interage, assim como seus processos e inter-relações.</>
+            </div>
+            <div class="slide" id="slide3">
+                <h2 class="ecoo">ECOLOGIA</h2>
+                <p class="text-content">A Ecologia é a área da Biologia responsável por estudar as relações que seres vivos estabelecem entre si e com o meio em que vivem.</>
+            </div>
+            <div class="slide" id="slide4">
+                <h2 class="ecoos">ECOSSISTEMAS</h2>
+                <p class="text-content">Ecossistema é, em ecologia, a conjunção da comunidade de organismos de várias espécies e dos fatores ambientais de um determinado local.</p>
+            </div>
+        </div>
+        <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+        <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <nav class="nav-menu" >
+        <a href="organismo.html" class="nav-item">Organismo</a>
+        <a href="biosfera.html" class="nav-item">Biosfera</a>
+        <a href="ecologia.html" class="nav-item">Ecologia</a>
+        <a href="ecossistema.html" class="nav-item">Ecossistema</a>
+    </nav>
+
+    
+</body>
+</html>
