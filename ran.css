@@ -1,0 +1,100 @@
+:root {
+  --fundo: #eaf7f1;
+  --fundo-container: #dff5eb; 
+  --titulo: #054C00; 
+  --cabeçalho: #27ae60; 
+  --linha-par: #B3D7C4; 
+  --linha-impar: #C8E8D7;
+  --hover: #9FBB99; 
+  --borda: #94B36D; 
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--fundo);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.ranking-container {
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: var(--fundo-container);
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid var(--borda);
+}
+
+
+.ranking-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--titulo);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 15px;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 2px solid var(--borda);
+}
+
+.ranking-table thead {
+  background-color: var(--cabeçalho);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ranking-table tbody tr:nth-child(odd) {
+  background-color: var(--linha-impar);
+}
+
+.ranking-table tbody tr:nth-child(even) {
+  background-color: var(--linha-par);
+}
+
+.ranking-table tbody tr:hover {
+  background-color: var(--hover);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ranking-table th {
+  text-align: center;
+}
+
+.ranking-table td {
+  color: #333;
+}
+
+
+@media (max-width: 600px) {
+  .ranking-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .ranking-table th,
+  .ranking-table td {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}

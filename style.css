@@ -41,10 +41,29 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
+.header-content .user p{
+    color: #054C00;
+}
 
+.header-content .user span{
+    color: #000000;
+}
+
+.header-content .user button{
+    background-color: #076500;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+    margin-left: 8px;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+    
 .alt-cab{
     height: 70px; 
     padding: 20px;
@@ -65,7 +84,6 @@ h1 {
 
 nav {
     display: flex;
-    gap: 10px;
 }
 
 nav .btn {
@@ -91,6 +109,7 @@ nav .btn {
     color:#ffffff;
     margin: 10px;
     border:none;
+    cursor: pointer;
 }
 
 .btn.cinza {
@@ -99,15 +118,13 @@ nav .btn {
   font-weight: 500;
   font-style: normal;
     color:#000000;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .btn-duvida{
-        position: absolute;
-        top: 10px;
-        right: 10px; 
-    
-   
+    position: absolute;
+    top: 10px;
+    right: 10px; 
 }
 .btn-duvida img {
     width: 25px;  
