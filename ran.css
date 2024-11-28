@@ -1,8 +1,8 @@
 :root {
   --fundo: #eaf7f1;
   --fundo-container: #dff5eb; 
-  --titulo: #054C00; 
-  --cabeçalho: #27ae60; 
+  --titulo: #225e1d; 
+  --cabeçalho: hsla(145, 87%, 24%, 0.745); 
   --linha-par: #B3D7C4; 
   --linha-impar: #C8E8D7;
   --hover: #9FBB99; 
