@@ -90,20 +90,7 @@ body {
     font-style: normal;
 }
 
-.cadastro button.arrow {
-    position: absolute;
-    top: -90px;
-    left: -735px;
-    background: transparent;
-    border: none;
-    font-size: 50px;
-    color: var(--elementos-recuperar2);
-    cursor: pointer;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
+
 
 .cadastro form {
     display: flex;
@@ -131,7 +118,7 @@ body {
     font-style: normal;
 }
 
-.cadastro button[type="submit"] {
+.bt-cadastro {
     padding: 10px;
     background-color: var(--texto-biosfera);
     color: var(--elementos-recuperar2);
@@ -145,9 +132,10 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-}
+    text-decoration: none;
+}   
 
-.cadastro button[type="submit"]:hover {
+.bt-cadastro:hover {
     background-color: rgb(90, 57, 25);
 }
 
